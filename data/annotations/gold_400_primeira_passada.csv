@@ -1,0 +1,401 @@
+review_id,sentiment,categories,severity,aspects,evidence,problem
+cd9024db094fdf3ec53cea6405691382,negative,product_quality,high,produto|embalagem,veio com o encosto do braço quebrado,braço da cadeira chegou partido por causa da embalagem fraca
+2d42213ba7e168b249383b108c2f6262,positive,,none,produto,Bom para ter,
+6cfa10799b73732ffa8142d6c331921a,negative,delivery,high,entrega,Não foi entegue,pedido nunca chegou
+008396ce4c9d08d5371b4cd708058b2a,negative,product_quality,medium,produto,Qualidade inferior à esperada,produto pior do que o esperado
+2f4d001c96364d0f73449196511eed89,negative,delivery,high,entrega|loja,o produto nao chegou,"encomenda não entregue, cliente vai contestar a cobrança no cartão"
+c60e3f49f2a2978e357fe15d8609e214,negative,product_quality|customer_service,high,produto|atendimento,PRODUTO CHEGOU C AVARIAS,película danificada e pedido de reembolso sem resposta
+62a6ee80fcbe75d2d94601f6537237ed,positive,,none,entrega|produto,"Entrega antes do prazo, produto de alta qualidade",
+f0a8f4048f34ef9ef40cc48cc2cc1287,negative,delivery|customer_service,high,entrega|atendimento,Produto não chegou no prazo,entrega fora do prazo e vendedor não responde
+f9ca3a8f117fb15d21f675f6fa171989,neutral,missing_items,low,produto,recebi a cadeira faltando dois parafusos,vieram peças de fixação a menos e o cliente comprou por conta
+c3c23649b369713e7df8f1f5c8895146,negative,delivery,high,entrega,Não recebemos ainda,compra ainda não entregue
+1ad88164e0eab5fef665d52d75d6b24f,negative,delivery,high,entrega,Não recebi o produto,encomenda não chegou
+f771414e31d34a8b3d8c41fe357362ad,positive,,none,atendimento,Gostei muito do atendimento,
+78707a3b34c512b7c5fd440d0d1a0d83,negative,delivery,high,entrega,Nao recebi o produto,encomenda roubada no transporte
+190b01af91fb754443307e59209136d6,negative,delivery|product_quality,medium,entrega|produto,demora na entrega e produto de baixa qualidade,atrasou e o item é ruim
+3001689d9a6ef685282eefadcf01cf5b,negative,product_quality,high,produto,Esse produto veio com defeito,item chegou com falha
+f7f3805173f2f538002d03e1eb1ac44d,negative,missing_items,high,entrega,entregaram somente uma,metade das unidades compradas não veio
+ff08e2f4f27860a725f9cc8146a98a4c,positive,product_quality,low,produto,O produto veio com pequenos arranhões,pequenos riscos na peça
+f2278f2dbb2823a514f9877d0edbd349,positive,,none,produto,Material muito bom da bolsa,
+557ae9c16a8ea3909db2fc5a01bc5151,negative,delivery|customer_service,medium,entrega|atendimento|loja,Chegaram 2 num dia e as outras 2 quase 48 horas depois,entrega dividida e loja difícil de contatar
+0178494e0c001522d2fa981f6d235cb1,positive,,none,entrega,Entrega super rápida,
+3ed02aadc78818910dc6e3e49c654bd2,negative,missing_items,high,produto,Faltou produto,um dos itens do pedido não veio
+b74aa99b0d6924acff8f474c1d280940,negative,delivery,high,entrega,Não recebido,pedido não entregue
+6a5983f2d5a20e867b64a7577af276f3,positive,,none,produto,Produto dentro das minhas expectativas,
+cb510adf1333297703384527699af820,positive,,none,produto|loja,Loja muito rápida,
+7eabad6a9f68bc736952667adfb09236,negative,customer_service,medium,loja,informando que o produto estava esgotado,loja cancelou alegando falta de estoque
+b197e6d9f6980e5814e29303f9e07bad,positive,,none,,Ótimo!,
+cd4088ed5531d6a8d6c4ac6abc0b84ff,negative,customer_service,medium,loja,informaram q não tinha mais o produto,venda cancelada por falta de estoque dias depois da compra
+c234fb41ba6510ff090beeb2462c0499,negative,product_quality,high,embalagem|produto,Produto chegou quebrado,item quebrado por embalagem ruim
+06e6300487c6f734ad5721d4db38e1f9,negative,missing_items,high,entrega,comprei 2 produto mas foi entregue só um,recebeu apenas parte das unidades
+6d6f27f33732e4031e92f47fa362902b,negative,missing_items|delivery,high,entrega|produto,"chegou apenas uma cadeira, sendo que foi paga 2",veio uma das duas cadeiras pagas e ainda atrasou
+2461a38e639fc91af62ec215890ee9ce,positive,,none,loja,O stark esta de parabéns,
+420722c250852dd06703ebaf64506573,positive,product_quality,low,embalagem|produto,o relógio chegou com alguns riscos,riscos leves causados pela embalagem
+d04c6293b10792389b9e366d1a0a0c1c,positive,,none,loja,lannister.COM É CONFIÁVEL,
+7ab8bc03c167aa7f8ae51ce8ce302b0a,negative,product_quality,high,produto,OEQUIPAMENTO NÃO FUNCIONA,"aparelho com defeito, cartão não encaixa"
+6107499d86f0c429f5010602659bc475,negative,product_quality,medium,produto,Os frascos do produto vieram com manchas escuras,"embalagens do produto sujas, mal armazenadas"
+83d1a8ab66183b59bc3a2a36b0e08a7c,negative,wrong_product,high,produto,"recebi a proteina concentrada da marca, que é um produto diferente",mandaram uma versão diferente do suplemento
+62791b63265afd0b2478a7df46b34ce4,negative,product_quality,high,produto|embalagem,11 gfs vazando,garrafas chegaram vazando
+69960173975de013a0e8cfef91b2f725,positive,,none,entrega,Recebi o produto antes do prazo,
+7b50ba7a5dce6830597b7d729b440c9a,negative,delivery,medium,entrega,"Depois de um longo e árduo tempo, o produto foi entregue",demorou demais para chegar
+d8b043fd3150eface7cc45ceb3959cd0,negative,product_quality,low,produto,o botão de ajuste que estava solto,"peça de regulagem solta, precisou de conserto caseiro"
+ca8268e52130a8c373fccf43c7118d8f,positive,,none,atendimento,Fiquei contente com a agilidade de vocês,
+4426f6762730a873057bacbfd116c778,negative,wrong_product,high,produto,não foi o que recebi,recebeu outro item no lugar do comprado
+252221d5b7d674dd0a07dfc0b2eba75e,negative,delivery,high,entrega,Cadeee meu produtool,encomenda sumida
+c0ffa7eb30ef0434b39a1a557f80a733,negative,delivery|customer_service,high,entrega|atendimento,até o momento o produto não chegou,sem notícias do pedido e nada entregue
+713ddaca33912145bba4761947770a7c,negative,product_quality|customer_service,high,produto|atendimento,Produto veio com defeito,defeito e nenhum canal para pedir troca
+c641457c83283d73cbf84f798372b648,positive,,none,produto,Produto de ótima qualidade,
+05d3e5fc1e9c0bc96049d5c8373a2bf8,negative,wrong_product,high,produto,Recebi produto errado,lentes com grau trocado
+6ead009f982c68ecb8092ceccebad9d6,negative,missing_items,high,entrega,só foi entregue uma unidade,faltou uma das cortinas
+9820c73449fdacc59185d514646d39c5,negative,delivery|customer_service,high,entrega|atendimento,Não recebi o produto e o status do meu pedido está informando que foi entregue,"sistema marcou como entregue mas nada chegou, sem suporte"
+6f233dbfbb701b1277c83c540bb04022,positive,,none,,BOA COMPRA,
+2e0f162c0ad1e5222ee18d9800d22321,negative,delivery,high,entrega,Paguei pelo produto e não recebi,pagou e não chegou
+7ed4ddfb30a26b53194afc978d5490f2,positive,,none,entrega|loja,produto chegou bem antes do prazo,
+0a1d3b5a82fb982d7327000f374dc07a,neutral,,low,entrega|produto,pra configurar o WiFi Repeater é complicado,repetidor difícil de configurar sozinho
+a5dd08152e43eee378d305e751d5d01a,negative,customer_service,high,atendimento|loja,Fiquei sem o produto é sem meu dinheiro,compra cancelada e estorno não devolvido
+3107b0bba9429ab3ab71844986331308,positive,,none,entrega,Recebi o produto bem antes do prazo final,
+b079fe16cd076f5cea0da11ec70dd298,negative,product_quality,high,produto,me entregaram controles falsos,controles remotos não originais
+7932aea471c08792aec0fed064004b1a,neutral,,none,,solicitei o cancelamento da compra,
+612f4f153af71d02ac80498fa194f2b1,negative,wrong_product|product_quality,medium,entrega|produto,os fios vieram na cor preta e eu fiz o pedido na cor branca,cor errada e estrutura da luminária entortada
+9afe98fdd5777f566951adc7612634ba,negative,missing_items,high,entrega,Só foi entregue 01 produto e eu comprei DOIS,faltou uma unidade
+d059af5cf5f4eb140d662ac317af84b6,negative,delivery,medium,entrega,Muito demora para fazer a entrega do produto,entrega lenta
+112b902a5fac4ebe80a40e9678de0d54,neutral,delivery,low,entrega,Demora a chegar,demorou para chegar
+961f4bc31860d76ea71906242730bada,positive,,none,loja|entrega,foi tudo entregue com forme o que eu esperava,
+5caa0269c37ef01b73906726e2ea4c8a,positive,,none,entrega|produto,Chegou tudo certo e ótimo produto,
+355339576f48f592b470124ab84eb016,negative,delivery,high,entrega,ainda aguardando,encomenda não chegou ainda
+b5c523f3b12ccb1e15aa3c8224014f3b,negative,wrong_product,medium,produto,O modelo entregue não foi compatível ao Cruize LT,peça não serve no carro
+656c93b88ecf0790f53bf19b9c3c0540,negative,customer_service,medium,atendimento,ATÉ AGORA NÃO RECEBI E-MAIL PARA SABER COMO PROCEDER,pedido de devolução sem retorno
+ecd6c775119e06d1e837e20c413605cc,positive,,none,,otimo,
+f2501442c9410fc8af7cb8d293877820,positive,,none,,muito bom,
+f579d29c7e69c88aefdfd558da118a31,positive,,none,loja,"Continuem sendo assim, muito obrigada",
+e01e5c02e0ca0249c1a2b66a9834afd8,negative,delivery,high,entrega,Não recebi,nada foi entregue
+666e09e2d2345a349e49eeceeb34aa81,positive,,none,produto|entrega,produto de ótima qualidade,
+6df539eeaf4e926c0779fa95a1fe9c8c,negative,product_quality,medium,entrega|produto,umas das panelas de pressão veio com o suporte quebrado,uma panela chegou com peça partida
+faf33e923f6abdd32b1de8bed4391384,negative,delivery,high,entrega,OBJETO AINDA NÃO CHEGOU À UNIDADE,rastreio parado e prazo vencido
+e1590935dea859c83c082a31418323d5,negative,delivery,high,entrega,era pra ser entregue até dia 12/05 e até hoje nada,prazo estourado sem entrega
+26f6d65a1f716494f1c574f7bba1a264,positive,,none,loja,Adorei a compra e o vendedor,
+38d85762c57a9d1215d07dce04848888,positive,,none,entrega,Muito rapido a entrega,
+ad11643dbe3976421c26cbb0226e5ef4,negative,wrong_product,low,produto,produto com características diferente no tom,cor real diferente da foto
+186c062fecf9de1d9c35e036096df718,positive,,none,atendimento,Muito bom atendimento,
+f33ca6b58f1d338bae5a28e13906f560,positive,,low,produto|embalagem,veio na caixinha de um outro produto,item enviado em caixa de outro produto
+d4046f04e61883cd709700b17862a0fa,positive,,none,loja|entrega,Recebi antes do prazo,
+97caadd5e32f5f5eda5d0670b39d53dd,negative,delivery,high,entrega,o produto não foi entregue,um mês após o pagamento nada chegou
+2e17489d5c4987a9010459ad3eb50c59,negative,wrong_product|customer_service,high,produto|atendimento,O produto foi entregue em outra cor,"cor e modelo trocados, sem conseguir trocar"
+8860591a164ef8ba01637958d5a209e6,positive,,low,produto|preco,Só nao fiquei tao contente porque não é 1005 algodão,tecido não é totalmente de algodão
+19a94c16c98b13029ac739a4780d296b,positive,,none,produto|entrega,Produto de acordo com o anunciado,
+32d179a6f2b3c495f62dfde07792f3d3,negative,missing_items,high,entrega,somente um chegou,só uma das duas unidades veio
+1e46466b590cf5386c0716a35d28f5bb,negative,delivery,high,entrega,Ainda não recebi o produto,transportadora extraviou o pacote
+564b5f0bdafcacecfca76bfe99771d3a,positive,,none,,Gostei muito!,
+c0d20d11a95e8f2a9454785544ee5450,positive,,none,produto|entrega,entrega muito antes do prazo proposto,
+23d1970863acd12bb7b3006575b85a69,negative,customer_service,medium,atendimento,estou aguardando resposta do e-mail,pedido cancelado sem explicação
+2193412c181741d98e7d96bd328b586b,negative,delivery,high,entrega,passou o prazo e o produto não foi entregue,presente de Natal não chegou a tempo
+a3a7ded58be7b6e94b58b43a081ccb8d,negative,delivery,medium,entrega,demorou muito a chegar,entrega muito lenta
+4ca0e63f3873866f4e04a5afd41b97ac,positive,,none,,Muito bom,
+49b6c05f6524cc66ebd94a161b5cc391,negative,delivery|customer_service,high,entrega|atendimento,meu produto foi roubado,pacote roubado e suporte não resolveu
+b7b42ae711ef5a7663baee05652808ad,negative,wrong_product,medium,produto,na imagem mostra que a película cobre toda a volta do botão,película não corresponde à foto do anúncio
+213e266fd93b4125639b7d365108e6b3,negative,missing_items|delivery,high,entrega,"falta o rolo 6,00 mm ainda nao chegou",um dos rolos do pedido não veio
+ba8fd58911c1d05989c9a6a96ea71539,positive,delivery,low,produto|entrega,ESTOU ESPERANDO O OUTRO PRODUTO,segundo item do pedido ainda a caminho
+0f929e3354b987525a46db686c15d30a,positive,,none,entrega,não houve muito atraso,
+fe5f383d7b60eed3c7eecb9388607454,positive,,none,entrega,CHEGOU CORRETO E DENTRO DO PRAZO,
+1773cb681ad95e300aeecdad7cabd266,negative,missing_items,high,produto,MINHA ENCOMENDA VEIO FALTANDO A PELICULA DE VIDRO,faltou a película de vidro
+55ce177abde80aa528b54b2d8a23d642,negative,delivery,high,entrega,Estou aguardando meu produto,pedido ainda não chegou
+d71d9f67138ec03bfc0a7e6ccfd6046c,positive,,none,,Muito bom,
+33ad9fd74ba7ca66f1aa91875cd404d5,negative,product_quality|wrong_product,medium,produto|preco,A qualidade do produto não agradou,item menor e pior do que a foto sugeria
+1b872c7e74e5485c6bfa2f7f03709ab1,negative,delivery,high,entrega,desejo receber o produto que comprei,ainda sem a encomenda
+f4d2c6ed9bebda9d41573e30f3d629b5,negative,product_quality,high,produto,O MP3 player não funciona,aparelho veio sem funcionar e foi devolvido
+43a503eafda1db974c1c8cc7a83bd22b,negative,wrong_product,high,produto,comprei um produto e recebi outro,mandaram mercadoria diferente
+df7a2f267b41d3132480fb85fcaac75e,negative,delivery|customer_service,high,entrega|atendimento,O produto não chegou,não entregue e loja ignora contato
+2f1a4863c07e6cc0d9cc966ac127ba2f,negative,wrong_product|customer_service,medium,produto|atendimento,o produto não estava de acordo com a descrição do site,item fora da descrição e troca complicada
+ed3863f1351d100b1939220826b5eca6,negative,delivery,low,entrega,o produto teve que ser retirado na central dos correios,precisou buscar o pacote na agência
+8d83cf0ed34b68001721dfbdb9abb273,positive,,none,produto,O produto é exatamente como imaginei,
+4c97bc0ba5b4191effeff0915133181a,neutral,,none,,Xxxxx,
+4f065935e9c6ee0e47a0b3a6796267d7,negative,product_quality,medium,embalagem|produto,veio dobrado ao meio,material chegou vincado por causa do transporte
+17ae4cd5b3e1103954581cdb7f9b3fb6,positive,,none,produto|entrega,Produto e entrega ok,
+961be0db2cc82241a02af75c86f9165a,positive,,none,entrega|embalagem,"O produto chegou antes do prazo, bem embalado",
+25f4bfeb5c1748779a03cf0f5b2b91c5,positive,,none,entrega,Chegou incrivelmente 20 dias antes do prazo previsto,
+3428da7fdcbe33372c82e85088db46f5,positive,product_quality,low,produto,O capacete recebido foi fabricado em 2016,"capacete antigo, com parte da validade já consumida"
+81dafff2e05211f93cc251a32732e24c,negative,delivery|customer_service,high,entrega|loja,Não entregou o produto,loja cancelou sozinha e emitiu nota errada
+4a93de6c66dee67442f7cbd44428f399,negative,wrong_product|customer_service,high,produto|atendimento|loja,recebi o produto errado,item trocado e nenhuma solução em um mês
+9dee821739913a7c7194e655c6ee60b2,neutral,,none,,Erro erro,
+e03495d69b63d7a742b8176d9241af84,positive,,none,produto,"Gostei da colcha, ficou perfeito na cama",
+5a7168b59e5d1ac052c5cff9878ab425,positive,,none,entrega,"Chegou muito Rápido, apenas 3 dias",
+811da55e41ba629101e6d8e9acba2e28,negative,delivery,high,entrega,nao recebi o item barra fixa,barra de exercício não chegou
+8648b35aab915b57a95e2c7fba897369,negative,product_quality,medium,produto,uma cadeira que manca,"cadeira desnivelada, prazo de troca expirou"
+3f90e6fa093057b8c1ed8097ef84102d,negative,delivery,high,entrega|loja,pela quarta vez está acontecendo atraso na entrega,"atraso recorrente, pedido ainda pendente"
+2145e4def7bb659411aae75fb92915b7,positive,,none,produto|entrega,Chegou antes do previsto,
+21989f91b7c7e52ecb1db35fcf2e31a0,negative,product_quality,high,produto,4 vieram quebrados,maioria dos termômetros chegou partida
+4e5cc6a1f98afb523c49d6d605bfaa0d,negative,delivery,high,entrega,Meu produto estar atrasado já a uma semana,encomenda atrasada uma semana
+6d5f1024b9dcf7d9e88f29cdcae71ca5,positive,,none,produto,Execlente produto,
+56a1ec3f2a8e4072e8cfeecd9d7a3c98,positive,,none,entrega|produto,O produto chegou no prazo e em perfeito estado,
+08ff4b8ed0afc05e6f8d618ff187597c,negative,delivery,high,entrega,nao recebi o produto,esmalte fortalecedor não chegou
+83e0574ee2190d7b440d10adedc7e399,positive,,none,embalagem,veio bem acondicionado,
+35576134663fcb878800e48e47b213f3,positive,,none,entrega|loja,A compra foi entregue com 18 dias de antecedência,
+320626ac677dd68173c21591f0c92bf7,negative,,low,preco|loja,"o mesmo estava com 20,00 de diferença a menos",preço mudou depois que colocou no carrinho
+126a70ba8052762fd33387f966bd406f,neutral,,none,entrega,Recebi o produto do prazo,
+19077ba4e4d6bf42e976d2ea418abde2,negative,delivery,high,entrega,Não recebi ainda,Correios ainda não entregaram
+12c57075f149a1db57bd8551c55dfb5a,negative,delivery|customer_service,high,entrega|atendimento,O produto nao foi me entregue,prazo vencido sem informação da loja
+fce39e0b68b17429be06ca85b78c2566,positive,,none,entrega,"com relação a entrega,super rápida",
+8855c8831f3c61d526cd4756612adb5c,neutral,,none,entrega,Este produto foi entregue correto,
+860f9032efdadaedf97e56549aec22cb,positive,,none,entrega|embalagem|produto,Chegou antes do prazo e o produto veio bem embalado,
+fb1bbcb5d14a17d51b0d4842727ecec0,negative,product_quality,medium,embalagem,O produto chegou com a caixa toda amassada,caixa chegou muito deformada
+23ac4200b41b95e17677d909b6c6f182,positive,,none,entrega,Entregue antes do previsto,
+2c4950e914ab4ddf45e06294f5f800b2,negative,delivery|customer_service,high,entrega|atendimento,já venceu o prazo e não me deram nenhuma satisfação,prazo vencido e loja em silêncio
+ee9e747177668bc9c9b8d95049c1eb9e,negative,product_quality,medium,produto,Película nova já não aderiu por completo,película não gruda direito na tela
+45b128a09a287e70dfb53a1257cb4b6f,positive,,none,produto|entrega,Produto bom e entregue dentro do prazo,
+92c9007a4103cda018e0666b2191fdb6,negative,wrong_product|product_quality,medium,produto,de felpuda não tem nada,toalha bem mais fina do que o anúncio prometia
+7bb142a89d982be04b5f9888b900c3c3,positive,delivery,low,entrega,Um pequeno atraso na entrega,chegou um pouco depois do previsto
+54857ec4df889572a7134c36ede148e8,positive,,none,produto|entrega,a entrega foi no prazo,
+5eaea38d05e6ac902677e4168b152473,negative,product_quality,medium,embalagem|produto,Embalaram ele dobrado,produto inflável deformado por ter sido dobrado
+9e4ad13c3450de5ed5bc95d356dc6544,negative,delivery,medium,entrega,demorou mto pra fazer a entrega,entrega lenta
+5cf8fb8fa1f219ccdc6ac473f48d7a7b,negative,delivery|customer_service,medium,entrega|atendimento,Ficou parado no Correios de Bauru do dia 4/6/18 a 22/6/18,pacote travado quase três semanas na agência e loja não ajudou
+082eedea442819d8c84ee96c79b0df12,positive,delivery,low,entrega|loja,Não chegou no prazo,atrasou por causa dos Correios
+02fd31391801a6713138bed9bc8e047b,negative,missing_items,high,produto,fiz o pedido de 4 peças e só veio uma,recebeu só uma de quatro peças
+c2408cdbf3e3470cd117f500a9f31ce6,positive,,none,entrega|produto,Chegou antes do prazo indicado e o produto é de ótima qualidade,
+05f951c3ffa5712f2efef3a681bc6924,positive,,none,loja|entrega,sempre chega antes do previsto,
+b356fc91f4e5e955c6b498d9535035dc,negative,missing_items,high,produto,Comprei duas formas para gelo e recebi apenas uma,faltou uma forma de gelo
+d64c44384c521d43b081504264b61ba1,negative,product_quality,high,produto,Touca chegou com furo,"touca furada, inutilizável"
+e1bb98031fdbad2498accce1ce402b63,negative,product_quality|missing_items,medium,produto|embalagem,Relógio com pulseira quebrada,pulseira partida e sem manual nem garantia
+bdf734f6c12c813e856c7ba74e53a3fa,negative,delivery|customer_service,high,entrega|atendimento,"produto ""empacado"" no correio por 10 dias",pacote parado e atendimento desinteressado
+635ca59a826c4a3009355d2f402c093e,negative,wrong_product|product_quality,medium,produto|preco,Nas fotos parecia ser maior,cabideiro menor que na foto e soltou peça
+840fde4e3b9e5115e8616125ed23c0f8,positive,,none,,Ótima,
+c7ae6b7ce2981450a84ea641f5b64dc0,positive,,none,produto|entrega,De qualidade e entrega antes do prazo,
+65427c6f16460ec95ce585302d8a1e99,positive,,none,,Muito bom,
+1338f9cd1187e36431a028672fef0496,negative,product_quality,medium,produto,NAO GOSTEI PORQUE VEIO AMASSADA,item deformado na entrega
+27a54571b6e3cb2651b1338568f97d62,positive,,none,produto,Produto muito bom e fácil de montar,
+f8318b8dfa51a8c7a239f190cec30816,negative,delivery,high,entrega,Quando vão entregar?,encomenda ainda não chegou
+c1205380f54fbd8a16ae19f342d6a131,positive,,none,,Muito bom,
+443e4df7ae803676253915bf703d119d,negative,delivery,high,entrega,Já paguei e ainda não recebo o perfume,perfume pago e não entregue
+8233f43c576b4db25dea40238bca9d55,positive,,none,entrega,Foi entregue antes do prazo,
+b3b360e6be703d9bc15878a75aeaab6c,negative,product_quality,medium,produto,A cadeira não atingiu minhas expectativas,cadeira decepcionou
+168af4a20b7aad22fd975d036dd0cd54,negative,product_quality|customer_service,high,produto|atendimento,O relógio que eu comprei da marca Oakley é falso,"relógio de marca não original, aguardando solução"
+18cff2332d0679b2853a3fcb0f5e692f,negative,product_quality,low,produto,e melhor uma colcha do que esse cobre leito,cobre-leito decepcionante
+3da6a6481adaa44485476554ebb628c4,negative,delivery,high,entrega,A entrega esta em atraso,pedido atrasado com risco de perder a data
+f48efda92d748b8be3d6d8cb473f7597,negative,delivery,high,entrega,O produto deveria ter chegado dia 03/11 mas nao chegou,prazo passou e status não mudou
+79dec548891d0737a6fa7e71fb0385e5,positive,customer_service,low,produto|entrega|loja,a loja não emitiu a nota fiscal,faltou nota fiscal
+2416537c8261985b1927caa5a927c64b,negative,delivery|customer_service,high,entrega|atendimento,Ainda não tive retorno da loja sobre a entrega do produto,loja não informa sobre entrega pendente
+8c60b8af830f3aa52688f1a737586637,negative,product_quality,high,produto|entrega|loja,o cartucho veio com defeito,cartucho de tinta com falha
+ccb7d16b309b58a778c864faec6c6118,positive,,none,produto,Balança de ótima qualidade,
+65520c3a5216bfffd00f2194aef74003,negative,delivery,medium,entrega,A loja disse que entregaria em 8 dias entregou em 22 dias,prazo quase triplicou
+ae5b532d47f6a74f09c8c7ff6e205409,positive,,low,produto,O tecido da capa esquenta muito,"capa do travesseiro esquenta, não é de algodão"
+ed6312acd795b9ddc847d2b9f109f815,negative,delivery|customer_service,high,entrega|atendimento,Nunca recebi o produto,não entregue e reembolso ignorado
+0b7f1d51251cdd73346eed0296022fee,negative,wrong_product|delivery,high,produto|entrega|embalagem,Produto errado,"atrasou e mandaram outra coisa, mal embalada"
+201810001e7a8af0fb46245c53994a48,negative,delivery,high,entrega,Não recebi até agora o produto,nada entregue até hoje
+cd97c51e3ae02c42c6bb290b2d49ce15,neutral,product_quality,low,produto,Esperava um produto de maior qualidade,qualidade abaixo do esperado
+cf3ff12227a58646f261a8b674ae9a8d,negative,,low,embalagem,recebe o produto num saquinho plástico super amarrado e cheio de fita adesiva,embalagem improvisada
+918a3d8390d77cd59fd1fd68e4977948,positive,,none,produto,gostei do produto,
+fea381af131fa1f23c6acc361ac863a1,negative,delivery,high,entrega,Aguardo recebimento,pedido ainda não chegou
+9efef4d70190c1bdb9b12872cc8144fc,negative,product_quality,medium,produto,Recebi o Diario do Bebê c um pequeno rasgo na contra capa,livro com capa rasgada e páginas dobradas
+44d53f15929dee0ee3e806f5a5e34b92,positive,,none,entrega,Entrega rápida,
+ed220a131b4a45da65fd328c6dec3848,neutral,product_quality|wrong_product,low,entrega|produto,eu esperava um produto de melhor qualidade,toalhas menos macias do que nas fotos
+0ea601c94a775e361982f6838a16f511,positive,,none,produto|entrega,Produto muito bom vale muito a pena,
+9c4b88d123dda47a6374960bbe488801,positive,missing_items,low,produto,o produto não veio com manual de instruções,sem manual na caixa
+fc9bad472c4da95d66a49821ac324913,negative,delivery,high,entrega,Não me enviaram o meu pneu ainda,pneu não despachado
+b5be606d37fe1a0bd2bbcb7e550574a2,negative,delivery,low,entrega,a data foi aumentando,previsão de entrega foi sendo adiada
+78f099009af37c7fcc76c056aaf7fb43,positive,,none,entrega|produto,Entregou a mercadoria antes do prazo e em perfeitas condições,
+bee0d3563b9ef587e0fc1c4b07870784,negative,missing_items,high,produto,O carrinho e bebe conforto não veio,"chegou só o encaixe, sem carrinho e bebê conforto"
+cbfe6cbe7a33d2bed74376fc4cb416a8,positive,,none,produto,Minhas gatas amaram o brinquedo,
+8a00113defe121facf98575d1932f107,positive,,none,produto,Parabéns produto muito bom,
+af35962a94cdb207b7744eb9c50f1db2,positive,,low,produto,Não era o tecido que imaginei,tecido diferente do imaginado
+fd91b83100dea1cfecf0ea62482cebc7,positive,,none,produto,por enquanto ta tudo certo,
+a23ab29493bc3b1156a044f889587e6a,positive,,none,produto,Excelente produto,
+0a42c18d489b93ebb95d567134ef92a9,positive,,none,loja,Continuar sempre assim muito obrigado,
+360c0dcd08e788454e8907f7b741f24a,negative,wrong_product|product_quality,medium,produto,na realidade é apenas tecido comum 80% algodão e 20% polyester,lençol não tem o tecido prometido no anúncio
+2581247fed3f5208759fb87c282cef23,neutral,product_quality,low,entrega|produto,o lacre dos produtos estavam soltos,lacres das embalagens vieram abertos
+7dbe92539f86b18c3dbaed365ef6a96d,positive,,none,,Otimo,
+5e44012e226e22f48ebba45444c0277d,positive,,none,loja,estou satifeito com esse site,
+2795267b1147077c347e9e214178c078,positive,,none,produto|entrega|loja,Gostei muito do meu papel de parede,
+2e68adb91fc0eb9ff9ef97c79dad5104,negative,delivery,high,entrega,NÃO RECEBI O PRODUTO,nada chegou
+71c1c712870bd259db8676cc5e2742f7,negative,customer_service,medium,loja,não tinha o produto para a entrega,venda feita sem estoque
+3619dffbd490da227cd530c7c7f90d2b,negative,delivery,high,entrega,Até hoje não recebi,cobrado no cartão sem receber
+9402da515030e3f5af1300e29986d923,positive,,none,produto|entrega,Produto bom e entregue super rápido,
+241a640324b85b3eb27f068cb1d32565,negative,wrong_product,medium,produto,Não recebi nenhuma estampa da foto,estampas diferentes das anunciadas
+0e30e365a99555a4062c214b901f0001,neutral,missing_items,medium,entrega|produto|atendimento,um dos produtos chegou faltando uma parte,peça de um item faltando
+4a77d135f5c9a49417c4934132a0f0a2,negative,wrong_product,medium,produto,recebi os 2 pretos,cor trocada em um dos itens
+cadf9426a5d725e7cb645fc3c9cb0b20,positive,,none,preco,"Custo x benefício, vale a pena",
+1338c803f33132cd2a61ce6ed883f417,positive,,none,loja|entrega,recebo sempre meus produtos dentro do prazo,
+cc11c476b551234c228007bdfbe620a8,neutral,delivery,low,embalagem|entrega,achei demorada a entrega,entrega um pouco lenta
+aad756a767d836b509f8a53147bfa370,negative,wrong_product,medium,produto,Comprei o jogo superking e veio o jogo padrão normal,lençol enviado no tamanho errado
+8de316eaa5535e2753feef9f85d6bd17,positive,,none,produto|entrega,Chegou antes do previsto,
+c1fe8453b795b6d066aba1bc2879bb4f,positive,,none,produto,Gostei muito do produto,
+ca5bc3c72f83c6fb95f7f72b290a492c,positive,,none,produto|entrega,produto conforme anunciado,
+8bad18585cd0c0117ee3b89fce53ee9e,positive,,none,,muito bom,
+464c92f18d7d40ff702ef5df56ded421,positive,,none,produto,Excelente Relógio,
+2456e7efff67f311120496a395833db6,negative,delivery,medium,entrega|produto,os demais produtos pedidos chegaram com uma semana de atraso,parte do pedido atrasou uma semana
+343ab3ac9134ebf1607332ec957f2e3b,positive,,none,entrega|produto,Entregue no prazo e produto atende bem a necessidade,
+f3dd532fdc3a42a4c9b1446f0601469c,negative,delivery,high,entrega,Não recebi o produto,pedido não chegou
+fd75914eb23604a51c598d82571e832d,negative,wrong_product,high,produto,entregaram o modelo Carway F30 no lugar de Carvun F30,modelo de câmera trocado de novo
+13dcde46c1a250aaed407dd6d5a53b77,negative,product_quality,high,produto,Produto veio quebrado,item chegou partido
+3dea48910b417ac1c31bce4fe11eb4ba,neutral,wrong_product,low,produto|loja,Recebi o produto errado,"mandaram outro item, mas trocaram rápido"
+2bb31ae51bc42c50f2e65b4ac5b42338,neutral,delivery,low,entrega,O produto já chegou em casa um pouco demorado,chegou com pequena demora
+c4756b59603872f5b06bab6c3ea50662,negative,product_quality,high,produto|loja,Carregador não funciona,carregador sem funcionar em nenhum aparelho
+a997b72c95e716b81b7d0cc54a0cf9ee,negative,,low,produto,Jarra pequena,jarra menor do que imaginava
+22162f5d35b60c13b619f8ed0458adfd,negative,delivery|customer_service,high,entrega|atendimento,até o momento nada,entrega com problema e sem resposta às mensagens
+be9a200280b9391660028c659857af3d,negative,wrong_product|product_quality,medium,produto,O produto recebido não correspondeu às informações de descrições do mesmo,item diferente da descrição e fraco
+17f05bdffb5d96f6af3f472419e71251,negative,missing_items,high,produto,Falta uma parte da compra,pedido veio incompleto
+8d891fd83bbdc90ff372192433de162b,negative,product_quality,high,produto,A capinha veio completamente danificada,capa estragada e película do tamanho errado
+cc50502cd8f7504cd0f097c891d979cb,negative,product_quality,medium,produto,veio com o CD de instalação quebrado,disco de instalação partido
+c7edac4e72742873a1f77b4100180436,positive,,none,loja|entrega,Recomendo a loja chegou antes do prazo,
+9f0e358c8d72472d5a426e8ab01668e1,neutral,,low,produto,não veio do tamanho que necessito,"tamanho não serve, pedido de devolução"
+685340ec96bbf7727487cad622045ad7,positive,,none,entrega|atendimento,EU GOSTEI MUITO DE SUAS ENTREGAS,
+56f922701b0113fae088a96251bea9c6,positive,,none,produto,Super recomendo,
+553da66912302e12aacb22599311084e,positive,,none,entrega,Entregue bem antes do prazo,
+1012de8ac2784a21bb0da7b22f5ac8ac,positive,,none,produto|entrega|loja,Amei o produto,
+a75a85f6afb0019811dc111e07027a0d,negative,product_quality,low,produto|entrega,nao gostei do produto,não agradou
+ee715ad2d7ea59d401eb992e7566a3bf,negative,delivery,medium,entrega,tenho que retirar nos correios,"entrega não feita em casa, precisa buscar na agência"
+1689b682b938914bd9aebe4409213a23,positive,,none,,Ótimo,
+31843114e7578d47252c985710729c43,negative,delivery|customer_service,high,entrega|atendimento|loja,nem recebi o produto nem mesmo o dinheiro de volta,sem produto e sem reembolso
+fcb4ff0435f3586c6368f68136012ef3,negative,missing_items,high,produto,Recebi somente parte do material,entrega parcial
+33af8764c06b2e8f7822b43a3e13462d,positive,,none,,Tudo ok!,
+bed2d6c46091bbfa059094d14a013ed1,negative,delivery,high,entrega,não recebi o produto,encomenda não chegou
+c1060b55683cba1465e60a0aaa883ac9,positive,,none,produto,Chegou como o esperado,
+982eeffd689e3e93cc4e3c829d2660d2,positive,,none,loja,TUDO MUITO SIMPLES E RAPIDO,
+681a450c0c294390422a8557d645d03d,negative,delivery,high,entrega,Produto venceu o prazo de entrega ontem,prazo de entrega expirou
+76ba29cebc6ffd51ff8ca5853963a0c1,neutral,,low,preco,Melhor seria se não cobrado entrega,frete cobrado
+f885b49f45e77b799cbc5f35eb716abd,negative,product_quality|customer_service,medium,produto,O produto chegou todo amassado,"item deformado, ruim e sem nota"
+d25ba822c38ba471bc6f4b3c0e5926c2,positive,,none,produto,GOSTEI MUITO DO PRODUTO,
+2516f4745288a788924c004eeb5e9830,negative,delivery,high,entrega,Eu quero o meu produto ou meu dinheiro de volta!!!,"sem o pedido, cliente exige reembolso"
+da9a1a30e2d0d894dd69f0a7cd7c157c,positive,,none,,maravilhoso,
+44fa51ebaf8c19f834ffd26bbff78fc4,negative,customer_service,high,atendimento|loja,Havia cancelado o pedido e mesmo assim foi entregue e foi cobrado,cancelamento ignorado e cobrança feita
+e54809fcd83a68a080af411caad915f6,negative,wrong_product,high,produto,recebi um outro com almofadas diferentes,kit de almofadas trocado
+26a8564a19697cb460f059867742f173,positive,,none,loja,Ótima empresa,
+30e629b53efe4888efa64332a8f717f8,negative,missing_items,high,entrega,Recebi só 1 de 2 pedidos com o mesmo rastreamento,metade do pedido não chegou
+492d9c7ee7e7d4246a23af2175e0721f,negative,wrong_product,medium,produto,Discrição de panela de ferro não conferi,panela não é de ferro como dizia o anúncio
+168ee7dada8c99577ca064c0fef3be4b,negative,customer_service,medium,atendimento|loja,fui informado que não era mais possivel,não deixaram cancelar logo depois da compra
+10b125dc8adff6897f03a8605c902a61,negative,delivery|customer_service,high,entrega|atendimento,Não recebi nada,pedido não entregue e loja não explica
+91f30fe56a84d369d913e7bf6d1d85a5,negative,missing_items|customer_service,high,entrega|atendimento,só chegaram 2 unidades,faltaram duas unidades pagas e ninguém resolve
+6b3ad1d6ef469c2cfe826f1abb8e4714,positive,,none,produto|entrega,Adorei minha frigideira,
+a466f9510a45ebe5b87ae0b86a294b68,negative,missing_items,high,entrega|loja,Entregaram somente um,só parte do pedido entregue
+388d0584caf7a075f6c8bb6e67d7e00b,positive,,none,entrega,Entrega muito rápida,
+d9c067a4cc794e5c4541119545522902,positive,,none,produto|entrega|atendimento,"Ótimos produtos, chegou bem antes do esperado",
+90c70b90103b97e4c803851a2b91e0f6,negative,wrong_product,medium,entrega|produto,a chave não serve para o modelo GM Agile como disse na descrição,chave incompatível com o carro informado no anúncio
+6bc0139b5bfc6c1c7400dce82130b043,negative,delivery|customer_service,high,entrega|atendimento,O produto era pra ser entregue no dia 27/11/2017 e não chegou,"não entregue, sem estoque e reembolso sem resposta"
+840989907fd522f373d46575d0f14b9b,negative,customer_service,medium,loja|preco,"recebi um aviso que a compra havia sido cancelada, motivo: falta de estoque",cancelamento por falta de estoque e preço subiu
+820d2052fd2f4dee1165c7126a43b697,neutral,,none,,sem comentarios,
+45f17d4d646ab56632c51159f06a5b14,positive,,none,loja|entrega|preco,sempre recebemos os produtos antes do prazo da entrega,
+f5becf505f78437b97c853619eb38c00,positive,,none,,ótimo,
+7c2485af74198f0a70486229ba4382a5,negative,product_quality,low,produto,O acabamento em inox veio com uma marca,mancha no acabamento de inox
+c0699320afd96770c877a3d163b7b3a2,negative,delivery,high,entrega,"Só recebi emails falando q estaria vindo, q estava no correio, mas nd","só promessas de entrega, nada chegou"
+2a9c6a7f501b6f06187ba67b7086b6d4,positive,,none,entrega,Entrega OK em tempo OK,
+5074321016164859ebc47ad169e4f635,neutral,product_quality,low,entrega|produto|preco,"Quanto ao produto, não gostei tanto",produto abaixo da expectativa pelo preço
+2cfa34b1a03fc667e64fdfc1311097ef,positive,,none,entrega,chegou antes do prazo,
+e26f95a4eb0ab72677a04ee266ff9fde,positive,,none,entrega|produto,gostei muito do produto,
+5fa4fb44964b47967a99bef856ba418d,negative,delivery,high,entrega,Só posso fazer avaliação depois que receber o meu produto,avaliação pedida antes da entrega
+840b0ca8578a76f9c142635102173964,positive,,none,,"Eu recomendo, ocorreu tudo certo",
+3d3b6043d626e72f82b128b1f7d1e82b,positive,,none,entrega,ENTREGA MUITO RAPIDA,
+2af2f4bb459f8df919aaaadbe64e7cad,negative,delivery|customer_service,high,entrega|atendimento,Passou quase 1 mês sem o produto chegar e nem chegou,pedido não chegou e estorno demora
+74669f9631d3c654a40e566fbc8b6a34,neutral,delivery|customer_service,low,produto|atendimento|entrega,o vendedor demorou a responder,vendedor lento atrasou a entrega
+80efb32ebbe7c60ad3e8d4a13f573712,positive,,none,,recomendo,
+b8a2743d253ba5187a567d4434c84399,positive,missing_items,low,produto,só não vem as cremalheiras junto,motor de portão sem as cremalheiras
+c71ba03f1a6e2d2031f98baa5b0f9529,negative,delivery,high,entrega,depois foi devolvido,pacote voltou ao remetente após uma tentativa
+d314664021ae76ad5cd79e7924b9f46c,negative,missing_items|customer_service,high,entrega|atendimento,"Comprei 4 itens, porém, chegou somente 1",três itens faltando e resolução lenta
+9258910f1228247d88f294cab8507cba,neutral,delivery,low,produto|entrega,achei muito longo o prazo de entrega (quase um mês),prazo de entrega longo demais
+eb192f11c35521a291202bc1ada26623,positive,,none,entrega|produto,Produto com ótima qualidade,
+b32788e7bb1d982656858323b4aa324d,negative,delivery,medium,entrega,mais de 30 dias para entregar um produto pequeno,levou mais de um mês para chegar
+26d94cc7d675c1a555ec02e0c641cf14,negative,,low,,ruim,
+2c622ecd757fc2a8294e90087011ddf5,neutral,product_quality,medium,produto,A luneta também e pecima,mira e luneta de má qualidade
+55efd2d082da9963799477a0977e8edf,positive,,none,,Tdo certo,
+16718406b54c271fec22425ae9d5c2d3,positive,,none,produto,Produto super confortável e muito bonito,
+8cbb5fc4072a5b57ae31eed5f25cb236,negative,wrong_product,high,produto,nao veio esse modelo,controle de outro modelo
+7ddf02359e1512627d910c51230539ff,positive,,none,entrega,produto entregue antes do prazo,
+a21f201bb7065fe788251b4137cac966,neutral,customer_service,low,entrega|atendimento,não veio com nota fiscal,nota fiscal não enviada
+90c7d15a2e8b60d31c8d0d14856b06a0,positive,,low,produto|embalagem,veio mau embalado na caixa,embalagem fraca
+ede6bcdd2f7793bd222035d89bf511ff,positive,product_quality,low,produto,a etiqueta que deveria marcar o meio do tecido está no lugar errado,marcação do centro do tecido deslocada
+7fadec01fb32ec557238185841205463,negative,missing_items,high,entrega,Fiz a compra de duas torres e só recebi uma,faltou uma das duas unidades
+373ee728c80e2ee6eb0b53cd4eebc1b8,positive,,none,entrega|produto,"Entregue antes do prazo, produto de boa qualidade",
+d58e4a045e87101c547aa0eeb1c0424c,negative,delivery,medium,entrega,Demorou para chegar,entrega demorada
+223d599945e3a610f6111484582b01c0,negative,delivery,high,entrega,Vou deixar mha opinião assim q receber,pedido ainda não recebido
+f7c0d3bdf02dc38b059df935e7659c12,negative,delivery,high,entrega,Não recebi o produto ainda,encomenda ainda não chegou
+5195aa07a4dd2c2a8844131b4a79c032,negative,delivery,high,entrega|loja,Ainda não recebi meu produto,"entrega muito atrasada, ainda pendente"
+188c1aa38b8bb680814b6f4b07d4f4a9,negative,wrong_product|missing_items,high,produto|atendimento,entregaram 1 cartucho COMPATÍVEL,veio um cartucho paralelo no lugar de dois originais
+a6d0cc0527406c7a7aa82acd4c81e81d,negative,missing_items|product_quality,medium,produto,Faltam as instruções,lanterna sem manual e com encaixe ruim
+51eacc441491f05e7055643ddadc974a,positive,,none,produto,"Tudo certo com o produto, fiquei muito satisfeita",
+4e1dc3d2c011aaaab1ff3481fda0c3f8,negative,product_quality,high,produto,Não funciona,produto ruim e sem funcionar
+d100adcddcef25bfa83bb819d562211c,negative,missing_items,high,produto,Meu pedido chegou faltando um item,um item do pedido não veio
+8d9d934ac0a89dd944ace6be82b41142,negative,missing_items,high,entrega,Comprei 2 unidades e chegou só uma,metade das unidades faltando
+1dde6672744e5ae18feee18990e81bed,positive,,none,,Recomendo muito!!!,
+8c32409915bc9db0f085913162ea9482,positive,,none,entrega,Entrega rápida,
+c210b6e904e3c7c34ff91fca84356431,positive,,none,produto,Lindos amei,
+1e944efcd10b304599ed11e2896531bb,neutral,product_quality,medium,produto,o cd para instalação no PC veio quebrado,disco de instalação partido
+a97b32ba40effc911f855580259d8b18,positive,,none,,SUPER RECOMENDADA,
+71174191641391b1cbdf5bbebb8ddbe9,negative,delivery,medium,entrega,Tive que retira lo no correio na segunda tentativa,precisou buscar na agência sem informação de horário
+fc9d10eecf8ad945391cc37357ec0b26,positive,wrong_product,low,produto,"a cortina ser anunciada como 2,80 X 1,80 e na realidade são duas de 1,40 X 1,80",anúncio confuso sobre as medidas da cortina
+9f2f18dabb7cef5c8719de6a697ce09b,negative,missing_items,high,produto,Nao recebi a cadeirinha de carro,"chegou só o tapete, sem a cadeirinha"
+d9874e4c2747add9ed7d3d5cbed1fd70,positive,,none,entrega|produto,O produto funciona perfeitamente,
+58264fd6ee4ec475725d731f7a12c414,positive,,none,produto|embalagem|entrega,"Produto de boa qualidade, veio embalado com muita proteção",
+d11c6d9033c129f77f336d96d875ec87,positive,,none,entrega|produto,uma entrega dentro do prazo esperado,
+a79d0e55a3c1bb354483afb7565c8715,positive,,none,produto|entrega,Sastifeito com a mercadoria e com a entrega antes do prazo,
+33e9e4a3b2e109d14a0ee690fb198a7c,positive,,none,produto,Jogo de lençol muito lindo,
+d240c062728a9fee64537f96832ab654,positive,,none,atendimento,Ótimo atendimento,
+c0e7d454f2a0c484785d15034db90244,neutral,product_quality,low,produto,Um parafuso veio com defeito,"parafuso defeituoso, cliente improvisou"
+e558040a9657116f79412efb2705ed48,neutral,,none,produto|embalagem,chegou lacrado,
+920b5eb8563218e7baf78da63da6eebb,negative,product_quality,medium,produto,18O FIOS MUITO DUROS E ASPEROS,lençol áspero e pior que o esperado
+60c714ed14cef913944a3147094a4742,negative,product_quality,medium,produto,"Produto muito inferior, mal acabado",acabamento ruim
+0dd1898196492ce54a4ee7dcc78e0ff6,positive,,none,produto,Um bom produto,
+e4b02fdcd67af08618a36da2d07f1488,negative,delivery,medium,entrega,Demorou muito para entregar,entrega lenta
+b06a3ab8a866b7f1bcba942dfa181695,positive,,none,produto,Cortina linda,
+1792971275893870276abda12034cae4,positive,wrong_product,low,entrega|preco|produto,a bússola e o termômetro do relógio Oulm sejam só enfeite,funções extras do relógio não funcionam de verdade
+47a4f48be34dd4a1c24b24a173ed1f6d,negative,delivery|wrong_product,high,entrega|produto,Minha compra foi entregue para outra pessoa,pedido foi parar com outra pessoa e recebeu item alheio
+f763252b810a719d655523cd5b748c37,negative,delivery,high,entrega,ainda nao recebi,pedido não chegou
+2b71e8a9e3504135797db1f6c89305c5,negative,customer_service,medium,loja,não tinha estoque do mesmo,"cancelado por falta de estoque, aguardando crédito"
+c7a3e6df17a6d5cb8f69a08e0533f3a4,negative,product_quality|customer_service,high,produto|atendimento,veio com defeito no cabo RCA,aparelho com defeito e SAC desligou na cara
+c099051f5050d2408fbe5d33beb8a8f8,negative,customer_service,medium,atendimento,Estou aguardando uma solução,cliente esperando resolução de um problema
+88799c9ece425f5f40f02678520071d3,neutral,delivery,low,produto|entrega,a entrega deixou muito a desejar,entrega no limite do prazo
+e083f696a409790e586266916429fc49,negative,,medium,loja,Não cumpriu com o combinado,loja descumpriu o acordado
+a4d841701af2db3899b574ce02c77574,positive,,none,entrega|embalagem,"Chegou no prazo, bem embalado",
+6b1e30af35e98780170a8d04784ed8dc,negative,missing_items|delivery,high,entrega,outra de 16 cm que não recebi ainda,uma das panelas não chegou
+7ddde774ae9d904cc3901a84fd443364,positive,,none,entrega|atendimento|produto,chegou bem antes do previsto,
+220dcbace990d1a710cb08e007f4caf3,negative,product_quality|customer_service,medium,produto|atendimento,costurada com linha escura na parte clara da cortina,costura aparente na cortina e devolução travada
+3932eda5ef78505334d6758bcef8218b,positive,,none,entrega,chegou antes do que era previsto,
+e3e0e7f4081ffd62dc417341142171a4,positive,,none,,Muito boa gostei obrigado,
+2fa74fcc8f4cbf5d6976be6fea5b86f8,neutral,,none,produto,solicitei devolução,
+a4cc64b282228c79b32f8c5c3ab6da48,negative,product_quality,high,produto,base de acrilico veio trincada,peça rachada e vazando
+40c306bf6f6b0913b07a41254ccd4131,positive,,none,loja,I love like to buy in this site,
+b3435359914ae8b3b09fe2b07e97e2cf,negative,delivery,medium,entrega,essa data não foi cumprida,prazo informado não foi respeitado
+af5cf2023f042a1568003706c876e418,positive,,none,entrega,entregue antes do prazo,
+6ee93eca27c9c2bb09603ebe5f506b21,negative,product_quality,high,produto|entrega,o controle simplesmente não funciona,controle chegou sem funcionar
+1a71574ff46da4757f33e56e09be21e9,positive,,none,loja|entrega,Estou satisfeita com os serviços de compra e entrega,
+f3205b3bb9b30e42bd3e1c8676491fa6,positive,,none,entrega,"Chegou muito, mais muito antes do prazo",
+e3af8a75276702c19d1ac8d157630439,negative,customer_service,medium,atendimento|loja,não consigo nunca falar com as lojas lannister,sem canal telefônico com a loja
+64276f6c4dd09aa04db0de08d9b858f4,positive,,none,loja|produto|entrega,excelente produto e prazo de entrega antes do esperado,
+e4a56bf7908dcbebd5a7c31deb96867c,positive,,none,loja|entrega|produto,produto veio conforme o pedido,
+7c607c83c4f542c1f15c42193c54c05f,positive,,none,,Otimo,
+d975d31dea2a48e55dfe6ea4218d8b35,positive,,none,entrega,entrega dentro do prazo,
+d61a683c6401494f7311af37b45ff720,negative,delivery|customer_service,high,entrega|atendimento,"Produto não entregue no prazo, ainda aguardando",atraso sem rastreio e suporte fraco
+0a17a80d17d08afa96fcf81a39c32c62,negative,wrong_product,high,produto,Comprei um produto e me encaminharam outro,"mandaram outra mercadoria, em devolução"
+90a2b557c0b0ceb25e48807fbbd5ba39,negative,wrong_product,medium,produto|embalagem,me enviarao o produto com outra embalagem,versão do produto diferente da foto
+e3bbc8ce49b42ab97f23ce87020088e7,negative,wrong_product,medium,produto,Recebi o littman de cor errada,estetoscópio na cor errada
+192bead3e18d277bd91a840df47155cd,positive,,none,loja,Vendedor muito bom,
+03d1f4565846ce50fd2dcb67dbcb8672,negative,product_quality,medium,produto,Veio amassado o podruto,item deformado
+598fa9bcc04d9747eacf69671e2afb87,negative,missing_items,medium,produto,a máscara não veio,fantasia sem a máscara
+1dcdc28aa4c1817a9bd6976e40c66420,negative,missing_items,high,entrega|produto,não chegou a creatina nem um dos wheys que eu pedi,suplementos do pedido não foram entregues
+c2fbe0703e013c3fe9d017cb9425415c,negative,product_quality,high,produto|loja,Produto não funciona de jeito algum,"produto inútil, cliente se sente enganado"
+def5437c7ca566ee2e4ba65784040e01,positive,,none,,Estou super satisfeita com a minha compra,
+e16530beeb5222af473cd40f7d319367,negative,delivery,high,entrega|loja,Estou aguardando meu pedido,pedido passou do prazo sem chegar
+1d8a694ca7dae08284e3d21af9768a47,positive,,none,entrega|produto,Produtos entregue no prazo veio como informado,
+b152c3916fac087c4eba4a98ac7a5b95,negative,delivery,medium,entrega,demorou mais de um mês pra receber,chegou com mais de um mês
+523593b4d9129a9e1e26c420fc6d34c6,positive,,none,entrega|produto,show de bola rapido e bom o produto,
+cfd672ef810b24373155f6903ff69835,negative,delivery|customer_service,high,entrega|atendimento,até hj 10/08/2018 não recebi a mercadoria,não entregue e loja não dá satisfação
+6a6e0b0632c847719de6351f044ba852,positive,,low,produto|preco,produto bom para sua faixa de preço,alças curtas e pouca regulagem
+07640effbf0110598f7f9951e1ca490f,negative,product_quality,low,produto,Essa acho que não 1 ano,ducha parece pouco durável
+2136eb084c7aacc5d8650535f8608ed7,positive,missing_items,low,produto,eu achei que vinha com o cabo da tomada,veio sem cabo de energia
+3936a3cd3ea9d87899e38ea503fed783,positive,,none,,ÓTIMO,
+53a67cbcf26a60c36aad0fed80cb0e80,positive,,none,entrega,Entrega rapida,
+8a86ed9a82774f67b78e13da34c28c4c,positive,,none,loja,as lojas lannister e perfeita no que promete,
+6a3ee648ba5374bb94e2f95361cac89e,negative,wrong_product,medium,produto,O PRODUTO NÃO ESTAVA DE ACORDO COM A FOTO ILUSTRATIVA,item diferente da imagem
+b854b31dabdb93f67caa52964f0aaf08,neutral,customer_service,low,atendimento,Melhorar o atendimento sempre,atendimento poderia ser melhor
+c0403a602d2933bf9b8e82c18a1477a5,negative,wrong_product,medium,produto,tava escrito novo e nao remold e na nota veio falando remold,pneu anunciado como novo veio remoldado
+4478613ec0c9d35febddfefed9158e69,positive,,none,entrega,"entregue antes do prazo, fiquei mto satisfeito",
+ef0e80d66fdc79ebf04c086fe293b320,negative,delivery,high,entrega,mais de trinta dias de espera e nada de chegar,mais de um mês esperando
+833f44ee5260e0f1dacf9f70c86c255f,positive,,none,,veio certinho,
+3efb52599590d3b02335525cc2b73ada,negative,product_quality,high,produto,"vieram embolorados, e falsificados",cartuchos mofados e não originais
+93d245f304339a2201f6a5cac7a5f811,positive,,none,entrega|loja,Entrega antes do prazo,
+1750446f4afa39b6cb4905d0ff292c3d,negative,product_quality,high,entrega|produto,"Produto chegou no prazo, mas com defeito","item defeituoso, pedido de troca"
+ab37099d60debc34f9ade511d9054776,negative,delivery,high,entrega,estou aguardando a mercadoria até hoje,pago e não entregue
+295c58a1ffe71e708415600cb65f4023,positive,,none,embalagem|produto,Produto entregue lacrado e em perfeito estado,
+c66bbfcd266acc1a20a9afb313d1697e,negative,wrong_product,medium,produto,Produto não é o mesmo da foto,item bem diferente do anúncio
+36f6e9200cc9a85e7815eaf393bb19bf,neutral,product_quality,low,produto,Produto de baixa qualidade,"qualidade fraca, mas funcional"
+311cfa581bf477276175ea9bd4a162a4,negative,missing_items|customer_service,high,entrega|atendimento,Comprei 3 itens e foi entregue somente 1,dois itens faltando e sem canal de contato
+8865969b57001ecdf1e67b27f46e4a89,negative,delivery,high,entrega,ainda não recebi minha mercadoria,atraso de três dias sem entrega
+63a4386398e32e22780d6b6bcdd677fd,positive,,none,entrega,A ENTREGA FOI RAPIDA,
+032018dd21c15586c339723117ce99aa,positive,,none,atendimento|entrega|preco|produto,"Fui atendido dentro de minhas expectativas, prazo, valor e produto",
+2a1a36b6a8fcd0d7d318f4bfeb85caaa,negative,wrong_product|customer_service,high,produto|atendimento,veio um kit de pincéis com nota fiscal de outra pessoa,recebeu pedido de outro cliente e ninguém responde

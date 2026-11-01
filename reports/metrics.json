@@ -1,0 +1,589 @@
+{
+  "classificador": {
+    "C_sentimento": 0.5,
+    "n_treino": 31393,
+    "cobertura_regras": 0.266,
+    "holdout": {
+      "n": 6296,
+      "sentimento_vs_nota_macro_f1": 0.674,
+      "sentimento_vs_nota_acc": 0.803,
+      "categorias_vs_regras_macro_f1": 0.868,
+      "por_classe": {
+        "negative": 0.806,
+        "neutral": 0.318,
+        "positive": 0.899
+      }
+    },
+    "gold": {
+      "n": 400,
+      "sentimento": {
+        "tfidf_logreg_macro_f1": 0.746,
+        "tfidf_logreg_acc": 0.82,
+        "baseline_estrelas_macro_f1": 0.699,
+        "baseline_estrelas_acc": 0.807,
+        "por_classe": {
+          "negative": 0.871,
+          "neutral": 0.457,
+          "positive": 0.91
+        }
+      },
+      "categorias": {
+        "tfidf_logreg": {
+          "macro_f1": 0.695,
+          "micro_f1": 0.716,
+          "por_categoria": {
+            "delivery": {
+              "precision": 0.787,
+              "recall": 0.769,
+              "f1-score": 0.778,
+              "support": 91.0
+            },
+            "product_quality": {
+              "precision": 0.932,
+              "recall": 0.631,
+              "f1-score": 0.752,
+              "support": 65.0
+            },
+            "wrong_product": {
+              "precision": 0.8,
+              "recall": 0.432,
+              "f1-score": 0.561,
+              "support": 37.0
+            },
+            "missing_items": {
+              "precision": 0.692,
+              "recall": 0.794,
+              "f1-score": 0.74,
+              "support": 34.0
+            },
+            "customer_service": {
+              "precision": 0.607,
+              "recall": 0.68,
+              "f1-score": 0.642,
+              "support": 50.0
+            }
+          }
+        },
+        "baseline_regras": {
+          "macro_f1": 0.696,
+          "micro_f1": 0.719,
+          "por_categoria": {
+            "delivery": {
+              "precision": 0.814,
+              "recall": 0.769,
+              "f1-score": 0.791,
+              "support": 91.0
+            },
+            "product_quality": {
+              "precision": 0.93,
+              "recall": 0.615,
+              "f1-score": 0.741,
+              "support": 65.0
+            },
+            "wrong_product": {
+              "precision": 0.833,
+              "recall": 0.405,
+              "f1-score": 0.545,
+              "support": 37.0
+            },
+            "missing_items": {
+              "precision": 0.806,
+              "recall": 0.735,
+              "f1-score": 0.769,
+              "support": 34.0
+            },
+            "customer_service": {
+              "precision": 0.611,
+              "recall": 0.66,
+              "f1-score": 0.635,
+              "support": 50.0
+            }
+          }
+        }
+      },
+      "severidade": {
+        "regras_macro_f1": 0.558,
+        "regras_acc": 0.67
+      }
+    },
+    "_atualizado_em": "2026-11-01 13:22"
+  },
+  "busca": {
+    "n_docs": 400,
+    "n_consultas": 15,
+    "consultas": {
+      "delivery": [
+        "meu pedido está atrasado e até agora não chegou",
+        "problemas com o prazo de entrega",
+        "a encomenda sumiu no caminho"
+      ],
+      "product_quality": [
+        "o produto veio quebrado e com defeito",
+        "qualidade ruim do material",
+        "parou de funcionar logo depois que chegou"
+      ],
+      "wrong_product": [
+        "recebi um produto diferente do que eu comprei",
+        "não é igual à foto do anúncio",
+        "mandaram a cor e o modelo errados"
+      ],
+      "missing_items": [
+        "comprei duas unidades e só veio uma",
+        "o pedido chegou incompleto",
+        "faltou uma peça dentro da caixa"
+      ],
+      "customer_service": [
+        "a loja não responde e não consigo o reembolso",
+        "dificuldade para cancelar ou devolver a compra",
+        "atendimento péssimo, ninguém resolve nada"
+      ]
+    },
+    "resultados": {
+      "TF-IDF (palavra-chave)": {
+        "media": {
+          "recall@20": 0.139,
+          "recall@50": 0.267,
+          "recall@100": 0.414,
+          "p@10": 0.48
+        },
+        "por_categoria": {
+          "delivery": {
+            "recall@20": 0.094,
+            "recall@50": 0.198,
+            "recall@100": 0.358,
+            "p@10": 0.533,
+            "n_relevantes": 96
+          },
+          "product_quality": {
+            "recall@20": 0.116,
+            "recall@50": 0.232,
+            "recall@100": 0.359,
+            "p@10": 0.467,
+            "n_relevantes": 66
+          },
+          "wrong_product": {
+            "recall@20": 0.175,
+            "recall@50": 0.289,
+            "recall@100": 0.421,
+            "p@10": 0.567,
+            "n_relevantes": 38
+          },
+          "missing_items": {
+            "recall@20": 0.186,
+            "recall@50": 0.363,
+            "recall@100": 0.51,
+            "p@10": 0.433,
+            "n_relevantes": 34
+          },
+          "customer_service": {
+            "recall@20": 0.122,
+            "recall@50": 0.252,
+            "recall@100": 0.422,
+            "p@10": 0.4,
+            "n_relevantes": 49
+          }
+        }
+      },
+      "LSA (TF-IDF + SVD)": {
+        "media": {
+          "recall@20": 0.199,
+          "recall@50": 0.34,
+          "recall@100": 0.549,
+          "p@10": 0.553
+        },
+        "por_categoria": {
+          "delivery": {
+            "recall@20": 0.094,
+            "recall@50": 0.194,
+            "recall@100": 0.392,
+            "p@10": 0.533,
+            "n_relevantes": 96
+          },
+          "product_quality": {
+            "recall@20": 0.162,
+            "recall@50": 0.278,
+            "recall@100": 0.449,
+            "p@10": 0.667,
+            "n_relevantes": 66
+          },
+          "wrong_product": {
+            "recall@20": 0.333,
+            "recall@50": 0.491,
+            "recall@100": 0.649,
+            "p@10": 0.767,
+            "n_relevantes": 38
+          },
+          "missing_items": {
+            "recall@20": 0.255,
+            "recall@50": 0.422,
+            "recall@100": 0.676,
+            "p@10": 0.5,
+            "n_relevantes": 34
+          },
+          "customer_service": {
+            "recall@20": 0.15,
+            "recall@50": 0.313,
+            "recall@100": 0.578,
+            "p@10": 0.3,
+            "n_relevantes": 49
+          }
+        }
+      },
+      "Sentence Transformers (paraphrase-multilingual-MiniLM-L12-v2)": {
+        "media": {
+          "recall@20": 0.189,
+          "recall@50": 0.379,
+          "recall@100": 0.555,
+          "p@10": 0.593
+        },
+        "por_categoria": {
+          "delivery": {
+            "recall@20": 0.142,
+            "recall@50": 0.351,
+            "recall@100": 0.59,
+            "p@10": 0.833,
+            "n_relevantes": 96
+          },
+          "product_quality": {
+            "recall@20": 0.182,
+            "recall@50": 0.369,
+            "recall@100": 0.52,
+            "p@10": 0.667,
+            "n_relevantes": 66
+          },
+          "wrong_product": {
+            "recall@20": 0.211,
+            "recall@50": 0.368,
+            "recall@100": 0.535,
+            "p@10": 0.467,
+            "n_relevantes": 38
+          },
+          "missing_items": {
+            "recall@20": 0.206,
+            "recall@50": 0.363,
+            "recall@100": 0.461,
+            "p@10": 0.467,
+            "n_relevantes": 34
+          },
+          "customer_service": {
+            "recall@20": 0.204,
+            "recall@50": 0.442,
+            "recall@100": 0.667,
+            "p@10": 0.533,
+            "n_relevantes": 49
+          }
+        }
+      },
+      "Aleatório (referência)": {
+        "media": {
+          "recall@20": 0.05,
+          "recall@50": 0.125,
+          "recall@100": 0.25,
+          "p@10": 0.142
+        }
+      }
+    },
+    "_atualizado_em": "2026-11-01 11:23"
+  },
+  "revisao_gold": {
+    "n_total": 400,
+    "n_revisadas": 100,
+    "n_revisadas_cegas": 100,
+    "concordancia_cega": {
+      "n": 100,
+      "linhas_com_alguma_mudanca": 39,
+      "sentimento": {
+        "concordancia": 0.9,
+        "kappa": 0.825
+      },
+      "severidade": {
+        "concordancia": 0.7,
+        "kappa_ponderado": 0.845
+      },
+      "categorias": {
+        "conjunto_identico": 0.88,
+        "jaccard_medio": 0.905,
+        "por_categoria": {
+          "delivery": {
+            "concordancia": 0.95,
+            "kappa": 0.857
+          },
+          "product_quality": {
+            "concordancia": 0.99,
+            "kappa": 0.96
+          },
+          "wrong_product": {
+            "concordancia": 0.97,
+            "kappa": 0.807
+          },
+          "missing_items": {
+            "concordancia": 1.0,
+            "kappa": 1.0
+          },
+          "customer_service": {
+            "concordancia": 0.97,
+            "kappa": 0.784
+          }
+        }
+      }
+    },
+    "metricas_so_revisadas": {
+      "Só a nota": {
+        "sentimento": 0.685
+      },
+      "Regras": {
+        "categorias": 0.759
+      },
+      "TF-IDF + LogReg": {
+        "sentimento": 0.771,
+        "categorias": 0.756,
+        "severidade": 0.545
+      },
+      "LLM": {
+        "sentimento": 0.837,
+        "categorias": 0.867,
+        "severidade": 0.597
+      }
+    },
+    "_atualizado_em": "2026-11-01 13:22"
+  },
+  "llm_extracao": {
+    "modelo": "claude-haiku-5-5",
+    "n": 400,
+    "respostas_sem_json_valido": 0,
+    "respostas_com_campo_corrigido": 0,
+    "sentimento_macro_f1": 0.841,
+    "severidade_macro_f1": 0.785,
+    "categorias": {
+      "macro_f1": 0.899,
+      "micro_precision": 0.874,
+      "micro_recall": 0.928,
+      "micro_f1": 0.9,
+      "por_rotulo": {
+        "delivery": {
+          "precision": 0.914,
+          "recall": 0.934,
+          "f1": 0.924,
+          "support": 91
+        },
+        "product_quality": {
+          "precision": 0.967,
+          "recall": 0.892,
+          "f1": 0.928,
+          "support": 65
+        },
+        "wrong_product": {
+          "precision": 0.804,
+          "recall": 1.0,
+          "f1": 0.892,
+          "support": 37
+        },
+        "missing_items": {
+          "precision": 0.917,
+          "recall": 0.971,
+          "f1": 0.943,
+          "support": 34
+        },
+        "customer_service": {
+          "precision": 0.746,
+          "recall": 0.88,
+          "f1": 0.807,
+          "support": 50
+        }
+      }
+    },
+    "aspectos": {
+      "macro_f1": 0.806,
+      "micro_precision": 0.737,
+      "micro_recall": 0.947,
+      "micro_f1": 0.829,
+      "por_rotulo": {
+        "entrega": {
+          "precision": 0.827,
+          "recall": 0.977,
+          "f1": 0.896,
+          "support": 176
+        },
+        "produto": {
+          "precision": 0.827,
+          "recall": 0.948,
+          "f1": 0.883,
+          "support": 172
+        },
+        "embalagem": {
+          "precision": 0.895,
+          "recall": 0.944,
+          "f1": 0.919,
+          "support": 18
+        },
+        "atendimento": {
+          "precision": 0.662,
+          "recall": 0.896,
+          "f1": 0.761,
+          "support": 48
+        },
+        "preco": {
+          "precision": 0.769,
+          "recall": 0.909,
+          "f1": 0.833,
+          "support": 11
+        },
+        "loja": {
+          "precision": 0.392,
+          "recall": 0.889,
+          "f1": 0.544,
+          "support": 45
+        }
+      }
+    },
+    "evidencia": {
+      "literal_no_texto": 0.999,
+      "sobreposicao_tokens_media": 0.852
+    },
+    "problema_detectado": {
+      "precision": 0.971,
+      "recall": 0.988,
+      "f1": 0.979
+    },
+    "_atualizado_em": "2026-11-01 13:21"
+  },
+  "rag": {
+    "gerador": "claude-haiku-5-5",
+    "juiz": "claude-haiku-5-5",
+    "embeddings": {
+      "backend": "sbert",
+      "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "dim": 384
+    },
+    "n_perguntas": 12,
+    "faithfulness_media": 0.848,
+    "relevancia_contexto_media": 0.792,
+    "relevancia_resposta_media": 3.5,
+    "pct_unidades_com_citacao_media": 0.417,
+    "respostas_com_numero_inventado": 0,
+    "citacoes_invalidas_total": 0,
+    "por_pergunta": [
+      {
+        "pergunta": "Quais são os principais problemas relacionados à entrega de produtos eletrônicos?",
+        "pct_unidades_com_citacao": 0.308,
+        "citacoes_invalidas": 0,
+        "numeros_nao_suportados": [],
+        "faithfulness": 1.0,
+        "n_afirmacoes": 11,
+        "relevancia_contexto": 0.625,
+        "relevancia_resposta": 4
+      },
+      {
+        "pergunta": "O que os clientes de móveis relatam quando o produto chega com problema?",
+        "pct_unidades_com_citacao": 0.25,
+        "citacoes_invalidas": 0,
+        "numeros_nao_suportados": [],
+        "faithfulness": 0.875,
+        "n_afirmacoes": 4,
+        "relevancia_contexto": 0.125,
+        "relevancia_resposta": 3
+      },
+      {
+        "pergunta": "Quais problemas aparecem com mais frequência em produtos de beleza e perfumaria?",
+        "pct_unidades_com_citacao": 0.538,
+        "citacoes_invalidas": 0,
+        "numeros_nao_suportados": [],
+        "faithfulness": 1.0,
+        "n_afirmacoes": 13,
+        "relevancia_contexto": 1.0,
+        "relevancia_resposta": 3
+      },
+      {
+        "pergunta": "Como os clientes descrevem a experiência quando o pedido chega incompleto?",
+        "pct_unidades_com_citacao": 0.438,
+        "citacoes_invalidas": 0,
+        "numeros_nao_suportados": [],
+        "faithfulness": 0.818,
+        "n_afirmacoes": 11,
+        "relevancia_contexto": 0.875,
+        "relevancia_resposta": 4
+      },
+      {
+        "pergunta": "Quais reclamações existem sobre produtos falsificados ou diferentes do anúncio?",
+        "pct_unidades_com_citacao": 0.538,
+        "citacoes_invalidas": 0,
+        "numeros_nao_suportados": [],
+        "faithfulness": 0.846,
+        "n_afirmacoes": 13,
+        "relevancia_contexto": 1.0,
+        "relevancia_resposta": 4
+      },
+      {
+        "pergunta": "O que os clientes dizem sobre o atendimento quando pedem reembolso?",
+        "pct_unidades_com_citacao": 0.455,
+        "citacoes_invalidas": 0,
+        "numeros_nao_suportados": [],
+        "faithfulness": 0.875,
+        "n_afirmacoes": 8,
+        "relevancia_contexto": 1.0,
+        "relevancia_resposta": 4
+      },
+      {
+        "pergunta": "Quais são as queixas mais comuns sobre cama, mesa e banho?",
+        "pct_unidades_com_citacao": 0.455,
+        "citacoes_invalidas": 0,
+        "numeros_nao_suportados": [],
+        "faithfulness": 0.7,
+        "n_afirmacoes": 10,
+        "relevancia_contexto": 1.0,
+        "relevancia_resposta": 4
+      },
+      {
+        "pergunta": "Como os clientes reagem quando o pedido é cancelado por falta de estoque?",
+        "pct_unidades_com_citacao": 0.455,
+        "citacoes_invalidas": 0,
+        "numeros_nao_suportados": [],
+        "faithfulness": 0.812,
+        "n_afirmacoes": 8,
+        "relevancia_contexto": 1.0,
+        "relevancia_resposta": 3
+      },
+      {
+        "pergunta": "Quais problemas de embalagem os clientes mencionam?",
+        "pct_unidades_com_citacao": 0.625,
+        "citacoes_invalidas": 0,
+        "numeros_nao_suportados": [],
+        "faithfulness": 0.75,
+        "n_afirmacoes": 8,
+        "relevancia_contexto": 0.625,
+        "relevancia_resposta": 4
+      },
+      {
+        "pergunta": "O que os clientes elogiam na entrega quando ela chega antes do prazo?",
+        "pct_unidades_com_citacao": 0.455,
+        "citacoes_invalidas": 0,
+        "numeros_nao_suportados": [],
+        "faithfulness": 0.778,
+        "n_afirmacoes": 9,
+        "relevancia_contexto": 1.0,
+        "relevancia_resposta": 4
+      },
+      {
+        "pergunta": "Quais problemas aparecem com relógios?",
+        "pct_unidades_com_citacao": 0.182,
+        "citacoes_invalidas": 0,
+        "numeros_nao_suportados": [],
+        "faithfulness": 0.722,
+        "n_afirmacoes": 9,
+        "relevancia_contexto": 0.875,
+        "relevancia_resposta": 2
+      },
+      {
+        "pergunta": "O que os clientes reclamam de brinquedos e produtos para bebês?",
+        "pct_unidades_com_citacao": 0.308,
+        "citacoes_invalidas": 0,
+        "numeros_nao_suportados": [],
+        "faithfulness": 1.0,
+        "n_afirmacoes": 12,
+        "relevancia_contexto": 0.375,
+        "relevancia_resposta": 3
+      }
+    ],
+    "_atualizado_em": "2026-11-01 13:22"
+  }
+}

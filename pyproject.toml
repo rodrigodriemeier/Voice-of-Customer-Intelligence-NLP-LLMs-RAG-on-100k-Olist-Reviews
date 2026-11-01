@@ -1,0 +1,9 @@
+[project]
+name = "olist-review-insights"
+version = "0.1.0"
+description = "Classificação, extração com LLM e RAG sobre as avaliações da Olist"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

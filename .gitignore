@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+
+# dados brutos: baixar com scripts/download_data.py
+data/raw/*
+!data/raw/.gitkeep
+
+# cache das chamadas de LLM (pode ter centenas de MB e é pessoal)
+data/cache/
+
+# intermediário, o app usa o corpus_scored
+data/processed/corpus.parquet
+
+# Os arquivos abaixo FICAM no repositório de propósito: o app publicado no
+# Streamlit Cloud precisa deles e não tem como rodar o pipeline lá.
+#   data/processed/reviews.parquet, data/processed/corpus_scored.parquet
+#   artifacts/classifier.joblib, artifacts/index/*
