@@ -40,6 +40,6 @@ def test_concordancia():
 
 def test_bloco_do_readme_sem_revisao_nao_finge_que_revisou():
     txt = gold_review_block({"revisao_gold": {"n_total": 400, "n_revisadas": 0, "n_revisadas_cegas": 0}})
-    assert "ainda não feita" in txt
+    assert "not done yet" in txt
     txt = gold_review_block({})
-    assert "ainda não feita" in txt
+    assert "not done yet" in txt
